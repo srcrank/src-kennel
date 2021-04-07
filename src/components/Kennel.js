@@ -1,8 +1,6 @@
 import React from "react"
 import "./Kennel.css"
-<<<<<<< HEAD
 import { PropsAndState } from "./PropsAndState"
-=======
 import { AnimalCard } from "./animal/AnimalCard"
 import "./animal/Animal.css"
 import { LocationCard } from "./location/Location"
@@ -11,7 +9,6 @@ import { CustomerCard } from "./customer/Customer"
 import "./customer/Customer.css"
 import { EmployeeCard } from "./employee/Employee"
 import "./employee/Employee.css"
->>>>>>> main
 
 export const Kennel = () => (
     <>
