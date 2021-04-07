@@ -1,5 +1,6 @@
 import React from "react"
 import "./Kennel.css"
+import { PropsAndState } from "./PropsAndState"
 import { AnimalCard } from "./animal/AnimalCard"
 import "./animal/Animal.css"
 import { LocationCard } from "./location/Location"
@@ -17,6 +18,14 @@ export const Kennel = () => (
             <div>Visit Us at the Nashville North Location</div>
             <div>500 Puppy Way</div>
         </address>
+
+        <PropsAndState yourName="Salma" />
+            <h2>Animals</h2>
+            <article className="animals">
+                <AnimalCard />
+                <AnimalCard />
+                <AnimalCard />
+            </article>
 
         <h2>Animals</h2>
         <article className="animals">
@@ -45,7 +54,8 @@ export const Kennel = () => (
             <EmployeeCard />
         </article>
 
+ 
 
     </>
-)
+);
 
