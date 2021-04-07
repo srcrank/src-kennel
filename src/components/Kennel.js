@@ -19,6 +19,14 @@ export const Kennel = () => (
             <div>500 Puppy Way</div>
         </address>
 
+        <PropsAndState yourName="Salma" />
+            <h2>Animals</h2>
+            <article className="animals">
+                <AnimalCard />
+                <AnimalCard />
+                <AnimalCard />
+            </article>
+
         <h2>Animals</h2>
         <article className="animals">
             <AnimalCard />
@@ -46,16 +54,8 @@ export const Kennel = () => (
             <EmployeeCard />
         </article>
 
+ 
 
     </>
 );
 
-<>
-<PropsAndState yourName="Salma" />
-<h2>Animals</h2>
-<article className="animals">
-    <AnimalCard />
-    <AnimalCard />
-    <AnimalCard />
-</article>
-</>
