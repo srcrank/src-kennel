@@ -1,18 +1,27 @@
 import React from "react"
 import "./Kennel.css"
-import { PropsAndState } from "./PropsAndState"
-import { AnimalCard } from "./animal/AnimalCard"
-import "./animal/Animal.css"
-import { LocationCard } from "./location/Location"
-import "./location/Location.css"
-import { CustomerCard } from "./customer/Customer"
-import "./customer/Customer.css"
-import { EmployeeCard } from "./employee/Employee"
-import "./employee/Employee.css"
+import { NavBar } from "./nav/NavBar"
+import { ApplicationViews } from "./ApplicationViews"
+
+// import { PropsAndState } from "./PropsAndState"
+// import { AnimalCard } from "./animal/AnimalCard"
+// import "./animal/Animal.css"
+// import { LocationCard } from "./location/Location"
+// import "./location/Location.css"
+// import { CustomerCard } from "./customer/Customer"
+// import "./customer/Customer.css"
+// import { EmployeeCard } from "./employee/Employee"
+// import "./employee/Employee.css"
 
 export const Kennel = () => (
     <>
-        <h2>Nashville Kennels</h2>
+        <NavBar />
+        <ApplicationViews />
+    </>
+);
+
+
+{/* <h2>Nashville Kennels</h2>
         <small>Loving care when you're not there.</small>
         <address>
             <div>Visit Us at the Nashville North Location</div>
@@ -54,8 +63,4 @@ export const Kennel = () => (
             <EmployeeCard />
         </article>
 
- 
-
-    </>
-);
-
+  */}
